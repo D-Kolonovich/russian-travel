@@ -1,0 +1,7 @@
+.photo-grid__image {
+    width: 100%;
+    object-fit: cover;
+    /* justify-items: stretch;
+    align-items: stretch;
+    justify-self: stretch;  */
+}    
