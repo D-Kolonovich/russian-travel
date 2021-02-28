@@ -24,16 +24,20 @@
 @media screen and (max-width:1279px) {
     .cover__link {
         width: 1000px;
+        height: 640px;
     }
 }
 @media screen and (max-width:1023px) {
     .cover__link {
         width: 749px;
+        height: 480px;
     }
 }
 @media screen and (max-width: 767px) {
     .cover__link {
         width: 315px;
+        height: 200px;
+        justify-content: end;
     }
 }
 
@@ -44,16 +48,19 @@
 @media screen and (max-width:1279px) {
     .cover__link::before {
         width: 1000px;
+        height: 640px;
     }
 }
 @media screen and (max-width:1023px) {
     .cover__link::before {
         width: 749px;
+        height: 480px;
     }
 }
 @media screen and (max-width: 767px) {
     .cover__link::before {
         width: 315px;
+        height: 200px;
         object-fit: fill;
     }
 }
