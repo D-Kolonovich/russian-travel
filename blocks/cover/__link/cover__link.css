@@ -13,6 +13,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    opacity: 0.7;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -24,46 +25,46 @@
 @media screen and (max-width:1279px) {
     .cover__link {
         width: 1000px;
-        height: 640px;
+        min-height: 640px;
     }
 }
 @media screen and (max-width:1023px) {
     .cover__link {
         width: 749px;
-        height: 480px;
+        min-height: 480px;
     }
 }
 @media screen and (max-width: 767px) {
     .cover__link {
         width: 315px;
-        height: 200px;
+        min-height: 200px;
         justify-content: end;
     }
 }
 
 
 .cover__link:hover::before {
-    opacity: 0.3;
+    opacity: 0.2;
 }
-@media screen and (max-width:1279px) {
+/* @media screen and (max-width:1279px) {
     .cover__link::before {
         width: 1000px;
-        height: 640px;
+        min-height: 640px;
     }
-}
-@media screen and (max-width:1023px) {
+} */
+/* @media screen and (max-width:1023px) {
     .cover__link::before {
         width: 749px;
-        height: 480px;
+        min-height: 480px;
     }
 }
 @media screen and (max-width: 767px) {
     .cover__link::before {
         width: 315px;
-        height: 200px;
+        min-height: 200px;
         object-fit: fill;
     }
-}
+} */
 
 
 
