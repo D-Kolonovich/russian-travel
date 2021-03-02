@@ -10,11 +10,11 @@
 }
 @media screen and (max-width:1023px) {
     .lead {
-        width: 750px;
+        width: 768px;
     }
 }
 @media screen and (max-width: 767px) {
     .lead {
-        width: 315px;
+        width: 320px;
     }
 }

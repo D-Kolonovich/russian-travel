@@ -29,7 +29,7 @@
 }
 @media screen and (max-width: 767px) {
     .place {
-        width: 315px;
+        width: 320px;
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         grid-template-areas:
         "place__title"

@@ -1,22 +1,22 @@
 .lead__main-illustration {
     height: 615px;
-    width: 984px;
+    width: 100%;
 }
 @media screen and (max-width:1279px) {
     .lead__main-illustration {
-        width: 928px;
+        /* width: 928px; */
         height: 580px;
     }
 }
 @media screen and (max-width:1023px) {
     .lead__main-illustration {
-        width: 749px;
+        /* width: 749px; */
         height: 480px;
     }
 }
 @media screen and (max-width: 767px) {
     .lead__main-illustration {
-        width: 315px;
+        /* width: 315px; */
         height: 200px;
     }
 }
