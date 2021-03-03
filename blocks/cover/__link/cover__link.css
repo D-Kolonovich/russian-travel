@@ -48,25 +48,4 @@
 
 
 
-/* @media screen and (max-width:1279px) {
-    .cover__link::before {
-        width: 1000px;
-        min-height: 640px;
-    }
-} */
-@media screen and (max-width:1023px) {
-    .cover__link::before {
-        /* width: 749px; */
-        min-height: 480px;
-    }
-}
-@media screen and (max-width: 767px) {
-    .cover__link::before {
-        /* width: 315px; */
-        min-height: 200px;
-        object-fit: fill;
-    }
-}
-
-
 
