@@ -11,7 +11,7 @@
 @media screen and (max-width:1023px) {
     .lead__main-illustration {
         /* width: 749px; */
-        height: 480px;
+        height: 100%;
     }
 }
 @media screen and (max-width: 767px) {
